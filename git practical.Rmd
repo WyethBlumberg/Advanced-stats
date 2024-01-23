@@ -1,0 +1,20 @@
+---
+title: "Practical_2"
+author: "Wyeth Blumberg"
+date: "2024-01-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(usethis)
+library(gitcreds)
+```
+
+```{r,}
+use_git()
+
+use_github()
+git_vaccinate()
+```
