@@ -7,8 +7,19 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(palmerpenguins)
 ```
 
 ## **New Section title**
 
 This is the new section to test github.
+
+## **Graphs**
+
+```{r, fig.cap= "Histogram of penguin flipper size"}
+
+hist(penguins$flipper_length_mm, main = NULL, xlab = "Flipper size (mm)")
+
+
+```
